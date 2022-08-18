@@ -3,7 +3,7 @@ U-Boot hints for rk3328.
 Replace linux kernel and dtb filenames with proper for the deployment.
 
 ext4load mmc 1:1 ${kernel_addr_r} /boot/ladios-5.20-rockchip
-ext4load mmc 1:1 ${fdt_addr_r} /boot/dtbs/the.dtb
+ext4load mmc 1:1 ${fdt_addr_r} /boot/dtbs/ladios-5.20.dtb
 booti ${kernel_addr_r} - ${fdt_addr_r}
 
 # kernel commandline for booting from microsd card:
