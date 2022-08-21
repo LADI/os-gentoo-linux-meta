@@ -4,8 +4,8 @@ production experience on Libre operating systems.
 LADI releated software is being deployed on POSIX systems running
 Linux kernel [1], JACK audio connection kit [2] and D-Bus [3].
 
-A partial list projects sustained under LADI umbrella
-is provided below. Some of them got more popular than others,
+A partial list of projects sustained under LADI umbrella
+is provided below. Some of them got more popular than others
 and lot was adopted in unanticipated way, for good.
 
  * jackdbus (as part of jack2)
