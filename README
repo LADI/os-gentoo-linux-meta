@@ -8,7 +8,7 @@ A partial list of projects sustained under LADI umbrella
 is provided below. Some of them got more popular than others
 and lot was adopted in unanticipated way, for good.
 
- * jackdbus (as part of jack2)
+ * jackdbus (mainlined as part of jack2, but initially crafted for jack1)
  * laditools
  * ladish
  * a2jmidid
