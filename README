@@ -1,0 +1,32 @@
+LADI is a long term initiative for improving audio media creation and
+production experience on Libre operating systems.
+
+LADI releated software is being deployed on POSIX systems running
+Linux kernel [1], JACK audio connection kit [2] and D-Bus [3].
+
+A partial list projects sustained under LADI umbrella
+is provided below. Some of them got more popular than others,
+and lot was adopted in unanticipated way, for good.
+
+ * jackdbus (as part of jack2)
+ * laditools
+ * ladish
+ * a2jmidid
+
+Recently, the LADIOS effort aims to providing installable OS
+images (currently Gentoo Linux is used as base).
+
+Participation in LADI project, including but not limited to
+contribution of source code, documentation and support is
+bound to code of conduct.
+
+Currently there is only one accepted code of conduct,
+the "Ubuntu Code of Conduct - 2.0" [4].
+If there is need for accepting other code of conduct, it may be
+adopted, given that reasonable and ethically sound arguments are
+provided.
+
+[1] https://en.wikipedia.org/wiki/Linux_kernel
+[2] https://en.wikipedia.org/wiki/JACK_Audio_Connection_Kit
+[3] https://en.wikipedia.org/wiki/D-Bus
+[4] https://launchpad.net/codeofconduct/2.0
