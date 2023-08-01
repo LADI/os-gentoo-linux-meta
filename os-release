@@ -1,0 +1,8 @@
+NAME=LADIOS
+ID=ladios
+PRETTY_NAME="LADIOS Linux"
+ANSI_COLOR="1;32"
+HOME_URL="https://ladish.org/os/gentoo-overlay-news.html"
+SUPPORT_URL="ircs://irc.libera.chat:6697/ladi"
+BUG_REPORT_URL="https://github.com/LADI/os-gentoo-overlay/issues"
+VERSION_ID="2.13"
