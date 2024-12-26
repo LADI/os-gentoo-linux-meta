@@ -9,7 +9,7 @@ This document supplements https://wiki.gentoo.org/wiki/PipeWire#Replacing_JACK[t
 
 These instructions are based on https://linuxmusicians.com/viewtopic.php?p=171612&sid=86f8d178c3ea77bf174e53e82c31f4e6#p171612[Fedora Pipewire Low Latency Audio Configuration Reference Guide V.1.02]
 
-== method 1, Use one line script
+=== method 1, Use one line script
 [source,bash]
 pw-dump \
   $(wpctl inspect @DEFAULT_AUDIO_SINK@ | \
@@ -21,7 +21,7 @@ pw-dump \
 ' if p["name"] == "pro-audio");'\
 'print("wpctl set-profile", dev["id"], profile["index"])' | bash
 
-== method 2, Using wp-profile tool
+=== method 2, Using wp-profile tool
 [source,bash]
  curl -o wp-profile https://dl.ladish.org/wp-profile/wp-profile.py
  chmod +x wp-profile
