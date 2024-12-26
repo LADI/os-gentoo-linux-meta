@@ -50,3 +50,20 @@ wpctl set-profile 64 3
 
 </pre>
 ++++
+
+== Adjust pipewire configuration for JACK
+In apropriate pipewire configuration file,
+set jack.self-connect mode to ignore-external
+and optionally enable aliases:
+
+[source,txt]
+# global properties for all jack clients
+jack.properties = {
+     jack.self-connect-mode = ignore-external
+     jack.fill-aliases = true
+}
+
+LADIOS specific configuration files for pipewire are:
+
+ * per-user at `~/.config/pipewire/jack.conf.d/ladi.conf`
+ * system-wide at `/etc/pipewire/pipewire.conf.d/ladi.conf`
