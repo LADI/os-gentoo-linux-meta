@@ -2,6 +2,7 @@
 :keywords: catroof, ratbagd, libratbag, piper, dbus, d-bus, zbus, c, rust, python3, gtk, gnome, qt, kde
 :docinfo: private-head,private-header
 :doctype: article
+:toc:
 
 This document supplements https://wiki.gentoo.org/wiki/PipeWire#Replacing_JACK[the Gentoo wiki PipeWire as JACK documentation], in context of LADIOS.
 
