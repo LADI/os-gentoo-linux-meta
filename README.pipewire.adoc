@@ -23,8 +23,9 @@ pw-dump \
 
 == method 2, Using wp-profile tool
 [source,bash]
- chmod +x wp-profile.py
- ./wp-profile.py
+ curl -o wp-profile https://dl.ladish.org/wp-profile/wp-profile.py
+ chmod +x wp-profile
+ ./wp-profile
 
 Example output:
 ++++
