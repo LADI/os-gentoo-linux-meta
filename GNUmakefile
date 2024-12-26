@@ -10,5 +10,10 @@ all: ladios-rockchip.html
 ladios-rockchip.html:
 	asciidoc -b xhtml11 -a data-uri -a icons --theme ladi -o ../ladi.github.io/ladios-rockchip.html README.rockchip.adoc
 
+all: ladios-pipewire.html
+.PHONY: ladios-pipewire.html
+ladios-pipewire.html:
+	asciidoc -b xhtml11 -a data-uri -a icons --theme ladi -o ../ladi.github.io/ladios-pipewire.html README.pipewire.adoc
+
 stage4:
 	cd ../stagebuilder && ./autobuild.sh
