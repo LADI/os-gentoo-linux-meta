@@ -4,9 +4,9 @@
 #
 # Currently the script outputs command to be ran, instead of runnig it.
 #
-# This script is based on
+# This script is based on post of ironhouzi at LinuxMusicians forum on topic
 # Fedora Pipewire Low Latency Audio Configuration Reference Guide V.1.02
-# https://linuxmusicians.com/viewtopic.php?p=171612&sid=86f8d178c3ea77bf174e53e82c31f4e6#p171612[]
+# https://linuxmusicians.com/viewtopic.php?p=171612#p171612
 #
 
 import json, sys, subprocess, re

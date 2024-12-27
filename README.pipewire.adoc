@@ -8,7 +8,7 @@ This document supplements https://wiki.gentoo.org/wiki/PipeWire#Replacing_JACK[t
 
 == Setting profile of default audio device to "pro audio"
 
-These instructions are based on https://linuxmusicians.com/viewtopic.php?p=171612&sid=86f8d178c3ea77bf174e53e82c31f4e6#p171612[Fedora Pipewire Low Latency Audio Configuration Reference Guide V.1.02]
+These instructions are based on https://linuxmusicians.com/viewtopic.php?p=171612#p171612[post by ironhouzi at LinuxMusicians forum on topic "Fedora Pipewire Low Latency Audio Configuration Reference Guide V.1.02"]
 
 === method 1, Use one line script
 [source,bash]
