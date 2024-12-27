@@ -66,7 +66,13 @@ for p in dev["info"]["params"]["EnumProfile"]:
 profile, = (p for p in dev["info"]["params"]["EnumProfile"] if p["name"] == "pro-audio")
 
 print()
-print("To set pro-audio profile of default audio device run:")
+#print("To set pro-audio profile of default audio device run:")
+#print()
+print("Executing: wpctl set-profile", dev["id"], profile["index"])
+#print("wpctl set-profile", dev["id"], profile["index"])
 print()
-print("wpctl set-profile", dev["id"], profile["index"])
-print()
+
+state = subprocess.run(
+    "wpctl set-profile " + str(dev["id"]) + " " +  str(profile["index"]),
+    shell=True,
+    check=True, capture_output=True).stdout.decode('utf-8')
